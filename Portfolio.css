@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.border-container {
+    height: 60px;
+    width: 60px;
+    border-color: #4b6cc1;
+    border-style: solid;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.banner-section-bg-container {
+    background-color: #191a1d;
+    height: 1000px;
+}
+
+.banner-image {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.heading {
+    color: white;
+}
+
+.banner-section-button {
+    background-color: #4b6cc1;
+    color: white;
+    height: 45px;
+    width: 130px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.description {
+    color: #9aa5b1;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.jenny {
+    color: #4b6cc1;
+}
+
+#navItem1 {
+    color: white;
+}
+
+#navItem2 {
+    color: white;
+}
+
+#navItem3 {
+    color: white;
+}
+
+#navItem4 {
+    color: white;
+}
+
+#navItem5 {
+    color: white;
+}
+
+.about-me-bg-container {
+    background-color: #323f4b;
+}
+
+.About-me-heading1 {
+    color: #cced00;
+    font-size: 28px;
+    padding-top: 40px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.skills-heading {
+    color: #cced00;
+    font-size: 28px;
+    padding-top: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.About-me-heading2 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.about-me-image {
+    width: 100%;
+}
+
+.about-me-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.skills-section-bg-container {
+    background-color: #1f2933;
+}
+
+.skill-container {
+    background-color: #323f4b;
+    border-radius: 15px;
+}
+
+.card-image {
+    width: 60px;
+    height: 80px;
+    padding-top: 25px;
+}
+
+.card-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.website-projects-section {
+    background-color: #3e4c59;
+}
+
+.website-projects-section-heading1 {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.website-projects-section-heading2 {
+    color: #ffffff;
+}
+
+.portfolio-website-card {
+    background-color: #323f4b;
+    border-radius: 10px;
+}
+
+.portfolio-card-heading {
+    color: #9aa5b1;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Roboto";
+}
+
+.portfolio-card-heading2 {
+    color: white;
+    font-size: 30px;
+}
+
+.portfolio-card-description {
+    color: #9aa5b1;
+    font-size: 25px;
+}
+
+.portfolio-Read-more {
+    color: #cced00;
+    font-weight: 500;
+}
+
+.testimonials-section-bg-container {
+    background-color: #1f2933;
+}
+
+.testimonials-section-heading1 {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.testimonials-section-heading2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.testimonial-card {
+    background-color: #323f4b;
+}
+
+.image {
+    border-radius: 75%;
+}
+
+.testimonial-card-description {
+    color: #9aa5b1;
+}
+
+.testimonial-text {
+    color: #ffffff;
+}
+
+.footer-section-bg-container {
+    background-color: #0d2436;
+}
+
+.footer-section-heading {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-section-caption {
+    color: #9aa5b1;
+    font-size: 20px;
+}
+
+.footer-image {
+    border-radius: 50%;
+}
+
+.phone-no-heading {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.email-heading {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.address-heading {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.call-icon {
+    font-size: 20px;
+    color: #5a7184;
+}
+
+.email-icon {
+    font-size: 20px;
+    color: #5a7184;
+}
+
+.address-icon {
+    font-size: 20px;
+    color: #5a7184;
+}
+
+.number {
+    color: #5a7184;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.e-mail {
+    color: #5a7184;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.address {
+    color: #5a7184;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.copy-right-section {
+    background-color: #001c32;
+}
+
+.copy-right-icon {
+    font-size: 20px;
+    color: #5a7184;
+    margin-right: 8px;
+}
+
+.copy-right-description {
+    font-size: 15px;
+    color: #5a7184;
+}

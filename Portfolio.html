@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/248c470660.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand border-container text-center" href="#">
+                J.
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#aboutMe" id="navItem2">About me</a>
+                    <a class="nav-link" href="#skillsSection" id="navItem3">Skills</a>
+                    <a class="nav-link" href="#projectSection" id="navItem4">Projects</a>
+                    <a class="nav-link" href="#testimonialSection" id="navItem4">Testimonial</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex flex-column justify-content-center" id="bannerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="image" />
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
+                    <h1 class="heading">Hey, I am <span class="jenny">Jenny</span></h1>
+                    <p class="description">I am a Frontend Developer & Mentor.</p>
+                    <button class="banner-section-button">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About me section-->
+    <div class="about-me-bg-container" id="aboutMe">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-5 about-me-image order-md-1 order-1 d-none d-md-block mt-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="about-me-image pt-4" />
+                </div>
+                <div class="col-12 col-md-7 mb-5 order-md-2">
+                    <h1 class="About-me-heading1">Facts</h1>
+                    <h1 class="About-me-heading2">About me</h1>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="about-me-image pt-4 d-md-none" />
+                    <p class="about-me-description pt-4">
+                        My name is jenny Wilson, and I am currently looking for a job in Frontend Development.
+                        I have 3 years of experience working as a Frontend developer. I have a bachelor's degree
+                        in electronics and communication. People find me to be an upbeat, self-motivated team player
+                        with excellent communication skills.
+                        <br /><br />
+                        I am a dedicated person with a family of four. I enjoy reading, and the knowledge and perspective
+                        that my reading gives me have strengthened my teaching skills and presentation abilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="skills-section-bg-container pt-5 pb-5" id="skillsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="skills-heading pb-3">Skills :</h1>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skill-container p-3 mb-3 text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="w-100" />
+                        <h1 class="card-heading">HTML</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skill-container p-3 mb-3 text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="w-100" />
+                        <h1 class="card-heading">CSS</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skill-container p-3 mb-3 text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="w-100" />
+                        <h1 class="card-heading">Bootstrap</h1>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="shadow skill-container p-3 mb-3 text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="w-100" />
+                        <h1 class="card-heading">JS</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="website-projects-section p-3" id="projectSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="website-projects-section-heading1 mt-5 mb-3">
+                        Portfolio
+                    </h1>
+                    <h1 class="website-projects-section-heading2">
+                        Projects I have done
+                    </h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-website-card mb-5">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="w-100" />
+                        <div class="container pb-3">
+                            <h1 class="portfolio-card-heading">Royal Grand Hotel</h1>
+                            <h1 class="portfolio-card-heading2">Happy Meals</h1>
+                            <p class="portfolio-card-description">
+                                Royal Grand Hotel is a Simple Static Webiste.
+                                We can use this layout for building the other websites...
+                            </p>
+                            <a href="" class="portfolio-Read-more">
+                                Read More
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="portfolio-website-card mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="w-100" />
+                        <div class="container pb-3">
+                            <h1 class="portfolio-card-heading">Web design</h1>
+                            <h1 class="portfolio-card-heading2">Happy Meals</h1>
+                            <p class="portfolio-card-description">
+                                Happy Meals is the best-in-class food ordering page today.
+                                With interactive UI/UX and simple call to actions...
+                            </p>
+                            <a href="" class="portfolio-Read-more">
+                                Read More
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="testimonials-section-bg-container" id="testimonialSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-5 pb-3">
+                    <h1 class="testimonials-section-heading1">Testimonials</h1>
+                    <h1 class="testimonials-section-heading2">Our Members Says</h1>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="testimonial-card text-center">
+                                    <div class="container mt-5">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-1-img.png" class="w-25 image pt-3" alt="...">
+                                        <p class="testimonial-card-description">
+                                            Jenny is one of the best hard-working developers,
+                                            and it was a pleasure working with him. having
+                                            certainly made everything run smoother.
+                                        </p>
+                                        <p class="testimonial-text text-right">-Gautham,Founder of CocoPay Company</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center">
+                                    <div class="container mt-5">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-2-img.png" class="w-25 image pt-3" alt="...">
+                                        <p class="testimonial-card-description">
+                                            Working with Jenny was an excellent experience. He is an incredibly talented developer and what makes him stand out is his work ethic and steady approach.
+                                        </p>
+                                        <p class="testimonial-text text-right">-Rakesh, Co-developer in Veriphy Company</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonial-card text-center">
+                                    <div class="container mt-5">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-3-img.png" class="w-25 image pt-3" alt="...">
+                                        <p class="testimonial-card-description">
+                                            I have worked with Jenny on two complex projects, and in both cases, the projects are done in a
+                                            timely fashion and delivered with excellent customer satisfaction.
+                                        </p>
+                                        <p class="testimonial-text text-right">-Riya, Co-founder of Cocopay Company</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-3 text-right">
+                            <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span>
+                            </a>
+                            <a href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section-bg-container pt-5 pb-5">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <div class="container d-flex flex-row">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="w-25 footer-image mr-2" />
+                    <div>
+                        <h1 class="footer-section-heading">Jenny</h1>
+                        <p class="footer-section-caption">Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="container mt-3">
+                    <h1 class="phone-no-heading mb-3">Phone No.</h1>
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-phone call-icon"></i>
+                        <p class="number">9876543210</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="container mt-3">
+                    <h1 class="email-heading mb-3">E-mail</h1>
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-envelope email-icon"></i>
+                        <p class="e-mail">jenny3@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="container mt-3">
+                    <h1 class="address-heading mb-3">Address</h1>
+                    <div class="d-flex flex-row">
+                        <i class="fa-solid fa-map-location-dot address-icon"></i>
+                        <p class="address">17 Ayur Vigyan Nagar, New Delhi, India.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-center mt-3">
+                    <i class="fa-regular fa-copyright copy-right-icon"></i>
+                    <p class="copy-right-description">2020 by Jenny Wilson. Created with Bootstrap.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
